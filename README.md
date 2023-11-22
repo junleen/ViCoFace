@@ -28,4 +28,4 @@ Fig. 3. **Proposed training framework.** Differing from many preceding approache
 - Python3.6 + PyTorch1.8.1 + cuda11.1.
 
 ## Further implementation info
-Coming soon.
+Code coming soon.
