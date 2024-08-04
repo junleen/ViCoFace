@@ -1,0 +1,33 @@
+.video-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container {
+    display: flex;
+    width: 500%; /* 根据视频数量调整 */
+    transition: transform 0.5s ease;
+}
+
+.video-slide {
+    width: 20%; /* 根据视频数量调整 */
+    flex-shrink: 0;
+}
+
+.slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
