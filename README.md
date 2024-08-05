@@ -39,11 +39,10 @@ Fig. 3. **Proposed training framework.** Differing from many preceding approache
 ### Implementation
 We test our model on `Pytorch 1.13.1+cuda11.3` and `Python 3.7`. Please install related packages via `pip install -r requirements.txt`.
 
-Checkpoint: The requests for code would be carefully assessed to
-ensure responsible use and non-commercial aims. Please send me an email to request the pre-trained models.
+Please download the face detection model [ckpt](https://drive.google.com/file/d/1pWRxqvGOJwFEPf72Sn-qTkHaKVgq7uLq/view?usp=sharing) and put it under `face_det/ibug/face_detection/retina_face/weights`.
 
+[Checkpoint](): The **training code** has not been released yet. The requests for code would be carefully assessed to ensure responsible and non-commercial use. Please drop me an email if you want to request the pretrained models or just test with your images. 
 
-If you want to test with your images, please write an email to me and share your image samples. 
 Testing user-specified images, please run:
 ```bash
 python gen_api.py
@@ -53,8 +52,8 @@ python gen_api.py
 ### Citation
 ```bibtext
 @article{vicoface,
-    title={MViCoFace: Learning Disentangled Latent Motion Representations for Visual-Consistent Face Reenactment},
+    title={ViCoFace: Learning Disentangled Latent Motion Representations for Visual-Consistent Face Reenactment},
     author={Ling, Jun and Xue, Han, and Tang, Anni and Xie, Rong and Song, Li},
-    year={2018}
+    year={2024}
 }
 ```
