@@ -51,7 +51,7 @@ python gen_api.py
 
 ### Citation
 ```bibtext
-@article{vicoface,
+@misc{vicoface,
     title={ViCoFace: Learning Disentangled Latent Motion Representations for Visual-Consistent Face Reenactment},
     author={Ling, Jun and Xue, Han, and Tang, Anni and Xie, Rong and Song, Li},
     year={2024}
