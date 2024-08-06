@@ -37,11 +37,13 @@ Fig. 3. **Proposed training framework.** Differing from many preceding approache
 - pyenv: Python 3.7 + Pytorch 1.13.1 + cuda11.3.
 
 ### Implementation
-We test our model on `Pytorch 1.13.1+cuda11.3` and `Python 3.7`. Please install related packages via `pip install -r requirements.txt`.
+- We test our model on `Pytorch 1.13.1+cuda11.3` and `Python 3.7`. Please first create the anaconda environment and install torch library. 
 
-Please download the face detection model [ckpt](https://drive.google.com/file/d/1pWRxqvGOJwFEPf72Sn-qTkHaKVgq7uLq/view?usp=sharing) and put it under `face_det/ibug/face_detection/retina_face/weights`.
+- Install related packages via `pip install -r requirements.txt`.
 
-[Checkpoint](): The **training code** has not been released yet. The requests for pre-trained checkpoint would be carefully assessed to ensure responsible and non-commercial use. Please drop me an email if you want to request the pretrained models or just test with your images. 
+- [Face Detection](): Please download the face detection model [ckpt](https://drive.google.com/file/d/1pWRxqvGOJwFEPf72Sn-qTkHaKVgq7uLq/view?usp=sharing) and put it under `face_det/ibug/face_detection/retina_face/weights`.
+
+- [Checkpoint](): *The training code has not been released yet*. The requests for pre-trained checkpoint would be carefully assessed to ensure responsible and non-commercial use. Please drop me an email if you want to request the pretrained models or just test with your images. 
 
 Testing user-specified images, please run:
 ```bash
